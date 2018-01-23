@@ -1,9 +1,64 @@
 body {
-    font-family: cursive;
+    font-family: risque;
     color: gold;
     background-color: black;
 }
+h1 {
+    font-size: 109px;
+    color: fuchsia;
+    text-align: center;
+    font-family: risque, cursive;
+}
+/*psudo element*/
+h1::before{
+    content: "<";
+    color: gold;
+}
 
-h1{
-    font-size: 50px;
+h1::after{
+    content: ">";
+    color: gold;
+}
+
+h2 {
+    font-family: Raleway, sans-serif;
+}
+
+p {
+    font-family: raleway, sans-serif;
+
+}
+
+.words {
+    text-align: center;
+    position: fixed;
+}
+
+.button {
+    display: inline-block;
+    border: solid 2px gold;
+    color: fuchsia;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: gold;
+}
+
+#connect{
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#connect:hover{
+    background-color: darkgreen;
+}
+
+#connect ul{
+    padding: 0;
+    margin: 0
 }
