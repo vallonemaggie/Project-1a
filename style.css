@@ -22,11 +22,13 @@ h1::after{
 
 h2 {
     font-family: Raleway, sans-serif;
+    padding: 20px;
 }
 
 p {
     font-family: raleway, sans-serif;
-
+    position: fixed;
+    text-align: left;
 }
 
 .words {
@@ -45,6 +47,22 @@ p {
 .button:hover {
     background-color: gold;
 }
+
+.button ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: #dddddd;
+    position: fixed;
+}
+
+.button li {
+    float: left;
+    width: 75px;
+    background-color: #dddddd
+}
+
+
 
 #connect{
     position: fixed;
