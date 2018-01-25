@@ -83,7 +83,6 @@ p {
 }
 
 img {
-    position: static;
     display: block;
     margin-left: auto;
     margin-right: auto;
