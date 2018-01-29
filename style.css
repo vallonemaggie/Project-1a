@@ -1,7 +1,11 @@
 body {
     font-family: risque;
     color: gold;
-    background-color: black;
+    background-image: url(images/tetris.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -30,6 +34,7 @@ h2 {
     position: static;
     text-align: center;
 }
+
 
 p {
     font-family: raleway, sans-serif;
@@ -99,3 +104,9 @@ img {
 img:hover {
     box-shadow: 5px 10px purple;
 }
+
+.audio{
+    background-color: gold;
+    width: 300px;
+}
+
