@@ -3,19 +3,22 @@ body {
     color: gold;
     background-color: black;
 }
+
 h1 {
     font-size: 109px;
     color: fuchsia;
     text-align: center;
     font-family: risque, cursive;
 }
+
 /*psudo element*/
-h1::before{
+
+h1::before {
     content: "<";
     color: gold;
 }
 
-h1::after{
+h1::after {
     content: ">";
     color: gold;
 }
@@ -50,10 +53,10 @@ p {
     box-shadow: 5px 10px purple;
 }
 
-.button ul{
+.button ul {
     list-style-type: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-color: #dddddd;
     position: static;
 }
@@ -67,7 +70,7 @@ p {
     transition: .5s
 }
 
-#connect{
+#connect {
     position: static;
     top: 0;
     left: 0;
@@ -76,12 +79,12 @@ p {
     transition: .5s;
 }
 
-#connect:hover{
+#connect:hover {
     background-color: darkgreen;
     transition: .5s;
 }
 
-#connect ul{
+#connect ul {
     padding: 0;
     margin: 0
 }
@@ -93,6 +96,6 @@ img {
     border: gold 2px solid;
 }
 
-img:hover{
+img:hover {
     box-shadow: 5px 10px purple;
 }
