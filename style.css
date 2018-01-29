@@ -42,6 +42,7 @@ p {
     border-radius: 5px 10px gold;
     cursor: pointer;
     text-align: center;
+    transition: .5s;
 }
 
 .button:hover {
@@ -59,10 +60,11 @@ p {
 
 .button li {
     float: left;
-    width: 350px;
+    width: 340px;
     background-color: #dddddd;
     padding: inherit;
-    font-size: 47px
+    font-size: 47px;
+    transition: .5s
 }
 
 #connect{
@@ -71,10 +73,12 @@ p {
     left: 0;
     cursor: pointer;
     display: inline-block;
+    transition: .5s;
 }
 
 #connect:hover{
     background-color: darkgreen;
+    transition: .5s;
 }
 
 #connect ul{
