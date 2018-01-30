@@ -1,6 +1,5 @@
 body {
     font-family: risque;
-    color: gold;
     background-image: url(images/tetris.jpg);
     height: 100%;
     background-position: center;
@@ -10,7 +9,7 @@ body {
 
 h1 {
     font-size: 109px;
-    color: fuchsia;
+    color: gold;
     text-align: center;
     font-family: risque, cursive;
 }
@@ -19,12 +18,12 @@ h1 {
 
 h1::before {
     content: "<";
-    color: gold;
+    color: purple;
 }
 
 h1::after {
     content: ">";
-    color: gold;
+    color: purple;
 }
 
 h2 {
@@ -35,12 +34,21 @@ h2 {
     text-align: center;
 }
 
+h2:first-line {
+    color: lawngreen;
+}
 
 p {
     font-family: raleway, sans-serif;
     font-size: 25px;
     position: static;
     text-align: left;
+    color: gold;
+}
+
+p::selection {
+    color: lawngreen;
+    background: purple;
 }
 
 .button {
@@ -51,6 +59,7 @@ p {
     cursor: pointer;
     text-align: center;
     transition: .5s;
+
 }
 
 .button:hover {
@@ -82,16 +91,17 @@ p {
     cursor: pointer;
     display: inline-block;
     transition: .5s;
+    color: gold;
 }
 
 #connect:hover {
-    background-color: darkgreen;
+    background-color: green;
     transition: .5s;
 }
 
 #connect ul {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 img {
@@ -105,8 +115,17 @@ img:hover {
     box-shadow: 5px 10px purple;
 }
 
-.audio{
+.audio {
     background-color: gold;
     width: 300px;
+    position: absolute;
 }
 
+.audio:hover {
+    background: gold;
+    transition: .5s;
+}
+
+.bottom {
+    color: white;
+}
